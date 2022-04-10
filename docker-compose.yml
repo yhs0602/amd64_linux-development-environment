@@ -1,0 +1,11 @@
+version: '3.4'
+
+services:
+  dev-env:
+    image: snuplc_devenv
+    platform: linux/x86_64
+    ports:
+      - "1200:22"
+    container_name: ubuntu_ssh
+    tty: true
+    stdin_open: true
