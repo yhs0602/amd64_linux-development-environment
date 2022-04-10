@@ -9,3 +9,5 @@ services:
     container_name: ubuntu_ssh
     tty: true
     stdin_open: true
+    volumes:
+      - "../snuplc:/root/snuplc"
